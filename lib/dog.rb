@@ -4,14 +4,14 @@ class Dog
 
   @@all = []
 
-  def instantiate
+  def instantiate(dog)
     @dog = dog
     @@all << self
 
   end
 
-  def new(dog)
-    @dog = dog
-  end
+  # def new(dog)
+  #   @dog = dog
+  # end
 
 end
