@@ -7,7 +7,7 @@ class Dog
   def initialize
     @@all << self
   end
-  
+
   def new(dog)
     @dog = dog
   end
