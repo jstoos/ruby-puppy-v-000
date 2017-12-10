@@ -5,15 +5,11 @@ class Dog
   @@all = []
 
   def initialize
-
     @@all << self
-
-    def new(dog)
-      @dog = dog
-    end
-
-
   end
-
+  
+  def new(dog)
+    @dog = dog
+  end
 
 end
