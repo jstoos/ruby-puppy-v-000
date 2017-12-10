@@ -10,4 +10,8 @@ class Dog
 
   end
 
+  def new(dog)
+    @dog = dog
+  end
+
 end
